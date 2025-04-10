@@ -1,0 +1,95 @@
+/*HOJA DE ESTILOS PERSONZALIZADA*/
+
+body{
+    background-color: #410C0C;
+    color: #ffff;
+}
+
+.h2{
+    font-size: 40px;
+}
+
+.p{
+    font-size: 35px;
+}
+
+.row{
+	padding: 20px 5px;
+	margin: 10px 5px;
+}
+
+.navbar {
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+.top-nav{
+    background-color: #410C0C; 
+    
+}
+ .top-nav .nav-link, .top-nav .navbar-brand{
+    color: #ffffff;
+    font-size: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trompo {
+    width: 100%;
+    height: auto;
+}
+.local {
+    padding: 30px 10px;
+    margin: 30px 10px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.inter-dos {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+.tacytor {
+    background-color:#752C17;
+    text-align: center;
+    padding: 20px 5px;
+    font-size: 32px;
+    display:flex;
+    justify-content: space-between;    
+}
+
+.burygri{
+    background-color:#752C17;
+    text-align: center;
+    padding: 20px;
+    font-size: 32px;
+    display:flex;
+    justify-content: space-between; 
+    align-content: center;
+}
+.mentt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.josefin-sans-dos {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+.spec {
+    background-color:#C54D2C;
+    text-align: center;
+    padding: 20px 5px;
+    font-size: 32px;
+    height: 250px;
+    align-content: center;
+    justify-content: center;
+}
