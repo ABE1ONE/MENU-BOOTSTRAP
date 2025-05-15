@@ -9,6 +9,9 @@ body{
     font-size: 40px;
 }
 
+.h4{
+    font-size: 10px;
+}
 .p{
     font-size: 35px;
 }
@@ -33,7 +36,6 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-
 .trompo {
     width: 100%;
     height: auto;
@@ -92,4 +94,36 @@ body{
     height: 250px;
     align-content: center;
     justify-content: center;
+}
+
+.socialicons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #4D4948;
+    font-size: 15px;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen (max-width:480px) {
+    body {
+        font-size: 14px;
+      }
+
+    footer{
+        font-size: 12px;
+        align-items: center;
+    }
 }
